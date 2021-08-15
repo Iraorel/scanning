@@ -1,0 +1,168 @@
+@charset "UTF-8";
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1444px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+/*Подключение СТИЛЕЙ ШРИФТА*/
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("../fonts/CaviarDreams.eot");
+  src: local("☺"), url("../fonts/CaviarDreams.woff") format("woff"), url("../fonts/CaviarDreams.ttf") format("truetype"), url("../fonts/CaviarDreams.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../fonts/CeraPro-Regular.eot");
+  src: local("☺"), url("../fonts/CeraPro-Regular.woff") format("woff"), url("../fonts/CeraPro-Regular.ttf") format("truetype"), url("../fonts/CeraPro-Regular.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+.conteiner {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scan {
+  font-family: CeraPro-Regular;
+  font-style: normal;
+  font-weight: 300;
+  padding-bottom: 16px;
+  line-height: 1.25px;
+  color: var(--black-text-color);
+}
+@media screen and (min-width: 768px) {
+  .scan {
+    display: flex;
+    padding-left: 194px;
+    padding-right: 60px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .scan {
+    padding-left: 736px;
+    padding-right: 189px;
+  }
+}
+
+.hero-scan {
+  font-family: CeraPro-Regular;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 36px;
+  line-height: 1.25px;
+  color: var(--blue-accent-color);
+}
+
+.process {
+  width: 133px;
+  height: 183px;
+  text-align: center;
+  background: #ffffff;
+  opacity: 0.8;
+  box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px #ffffff;
+  border-radius: 50px 0px;
+}
+@media screen and (min-width: 768px) {
+  .process {
+    width: 153px;
+    height: 210px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .process {
+    width: 250px;
+    height: 298px;
+  }
+}
+
+.process:not(:last-child) {
+  padding-left: 21px;
+}
+
+.img-scanning {
+  width: 94px;
+  height: 82px;
+}
+@media screen and (min-width: 768px) {
+  .img-scanning {
+    width: 108px;
+    height: 95px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .img-scanning {
+    width: 177px;
+    height: 154px;
+  }
+}
+
+.hero__img-scanning {
+  width: 280px;
+  height: 199px;
+}
+@media screen and (min-width: 768px) {
+  .hero__img-scanning {
+    width: 241px;
+    height: 172px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero__img-scanning {
+    width: 515px;
+    height: 368px;
+  }
+}
+
+:root {
+  --main-font: "Cera Pro";
+  --accent-font: "Caviar Dreams";
+  --black-text-color: #2b2b2b;
+  --blue-accent-color: #487996;
+  --form-color: #cdcdcd;
+  --icon-blue-color: #008cef;
+  --white-color: #ffffff;
+  --bg-footer-color: #f5f5fa;
+  --bg-color-section: #e5e5e5;
+  --decor-elements-shadow: rgba(0, 0, 0, 0.1);
+  --cubik: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-basic: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --mobile: 320px;
+  --tablet: 768px;
+  --desktop: 1444px;
+}/*# sourceMappingURL=style.css.map */
