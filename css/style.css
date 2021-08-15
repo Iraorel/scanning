@@ -59,7 +59,7 @@ ul {
 }
 
 .scan {
-  font-family: var(--main-font);
+  font-family: CeraPro-Regular;
   font-style: normal;
   font-weight: 300;
   padding-bottom: 16px;
@@ -81,12 +81,11 @@ ul {
 }
 
 .hero-scan {
-  font-family: var(--main-font);
+  font-family: CeraPro-Regular;
   font-style: normal;
   font-weight: 700;
+  padding-bottom: 36px;
   line-height: 1.25px;
-  text-align: center;
-  margin-bottom: 36px;
   color: var(--blue-accent-color);
 }
 

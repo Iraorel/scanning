@@ -7,7 +7,7 @@
 }
 
 .scan {
-  font-family: CeraPro-Regular;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 300;
   padding-bottom: 16px;
@@ -26,14 +26,17 @@
 }
 
 .hero-scan {
-  font-family: CeraPro-Regular;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
-  padding-bottom: 36px;
   line-height: 1.25px;
+
+  text-align: center;
+  margin-bottom: 36px;
 
   color: var(--blue-accent-color);
 }
+
 .process {
   width: 133px;
   height: 183px;
